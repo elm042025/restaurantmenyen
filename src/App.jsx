@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { meny } from "./data/MenyData.js"; //! imports the data from a folder imitating an api
+import { Meny } from "./components/Meny.jsx"; //! imports the Meny component
 
-import "./App.css";
-
-function App() {
-   const [count, setCount] = useState(0);
-
-   return <></>;
+export default function App() {
+   return (
+      <section>
+         <Meny menyData={meny} />
+      </section>
+   );
 }
-
-export default App;
