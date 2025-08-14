@@ -1,0 +1,19 @@
+.dishHeaderPrice {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.dishHeaderPrice h3 {
+   margin: 0;
+   color: #ffe504;
+}
+
+.dishHeaderPrice span {
+   font-weight: bold;
+   color: #ffe909;
+}
+.dishHeaderPrice p {
+   margin-top: 0.5rem;
+   color: #f0eced;
+}
