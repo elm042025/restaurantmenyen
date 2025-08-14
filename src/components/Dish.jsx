@@ -1,6 +1,6 @@
 import styles from "./Dish.module.css";
 
-export const Dish = function ({ kategori, tittel, pris, ingredienser }) {
+export const Dish = function ({ tittel, pris, ingredienser }) {
    return (
       <article>
          <section className={styles.dishHeaderPrice}>

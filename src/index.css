@@ -17,10 +17,3 @@ body,
    align-items: center;
    color: #f3eef2;
 }
-h1 {
-   width: 100%;
-   text-align: center;
-   color: hsla(51, 100%, 50%, 0.75);
-   font-size: 3rem;
-   text-decoration: underline;
-}

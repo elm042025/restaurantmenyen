@@ -8,6 +8,16 @@
    margin: 1rem auto;
    border-radius: 0.75rem;
 }
+.menuGrid h1 {
+   width: 100%;
+   color: hsla(51, 100%, 50%, 0.75);
+   font-size: 3rem;
+   text-decoration: underline;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.25rem;
+}
 
 .menuCategory {
    display: flex;
@@ -16,13 +26,14 @@
    padding: 1rem 0;
 }
 .menuCategory h2 {
-   color: hsla(51, 100%, 50%, 0.75);
-   font-size: 3rem;
+   color: #ffd900bf;
+   font-size: 2.5rem;
    font-weight: 500;
    position: relative;
    display: flex;
    align-items: center;
    gap: 1rem;
+   margin-bottom: 1rem;
 }
 .menuCategory h2::before,
 .menuCategory h2::after {
