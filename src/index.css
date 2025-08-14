@@ -4,6 +4,10 @@
    padding: 0;
 }
 body {
+   background-color: #151415;
+}
+body,
+#root {
    font-family: "Lato", sans-serif;
    letter-spacing: 1px;
    min-height: 100vh;
@@ -11,13 +15,12 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: #2b262d;
    color: #f3eef2;
 }
 h1 {
    width: 100%;
    text-align: center;
-   color: #fed300;
+   color: hsla(51, 100%, 50%, 0.75);
    font-size: 3rem;
    text-decoration: underline;
 }

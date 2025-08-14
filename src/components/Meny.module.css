@@ -1,9 +1,12 @@
 .menuGrid {
    display: grid;
+   grid-template-columns: 1fr;
    gap: 1rem;
    padding: 1rem;
    min-width: 500px;
-   max-height: 100vh;
+   background-color: #2b262d;
+   margin: 1rem auto;
+   border-radius: 0.75rem;
 }
 
 .menuCategory {
@@ -13,7 +16,7 @@
    padding: 1rem 0;
 }
 .menuCategory h2 {
-   color: #ffdb01;
+   color: hsla(51, 100%, 50%, 0.75);
    font-size: 3rem;
    font-weight: 500;
    position: relative;
@@ -27,4 +30,11 @@
    width: 100%;
    height: 2px;
    background-color: #f0eced;
+}
+@media (max-width: 768px) {
+   .menuGrid {
+      min-width: 100%;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+   }
 }

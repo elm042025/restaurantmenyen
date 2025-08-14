@@ -5,15 +5,29 @@
 }
 
 .dishHeaderPrice h3 {
-   margin: 0;
    color: #f8f5f6;
+   display: flex;
+   align-items: center;
+   flex: 1;
+   position: relative;
+}
+h3::after {
+   content: "";
+   border-bottom: 1px dotted #f0eced;
+   flex-grow: 1;
+   margin: 0 0.25rem;
 }
 
 .dishHeaderPrice span {
    font-weight: bold;
-   color: #ffe909;
+   color: hsla(51, 100%, 50%, 0.75);
 }
 p {
    margin-top: 0.25rem;
    color: #f0eced;
+}
+@media (max-width: 768px) {
+   p {
+      font-size: 0.875rem;
+   }
 }
