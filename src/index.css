@@ -17,4 +17,6 @@ h1 {
    width: 100%;
    text-align: center;
    color: #fed300;
+   font-size: 3rem;
+   text-decoration: underline;
 }
